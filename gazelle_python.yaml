@@ -1,0 +1,32 @@
+# GENERATED FILE - DO NOT EDIT!
+#
+# To update this file, run:
+#   bazel run //:gazelle.mapping.update
+
+manifest:
+  modules_mapping:
+    flask: :flask
+    flask.app: :flask
+    flask.blueprints: :flask
+    flask.cli: :flask
+    flask.config: :flask
+    flask.ctx: :flask
+    flask.debughelpers: :flask
+    flask.globals: :flask
+    flask.helpers: :flask
+    flask.json: :flask
+    flask.json.provider: :flask
+    flask.json.tag: :flask
+    flask.logging: :flask
+    flask.sansio.app: :flask
+    flask.sansio.blueprints: :flask
+    flask.sansio.scaffold: :flask
+    flask.sessions: :flask
+    flask.signals: :flask
+    flask.templating: :flask
+    flask.testing: :flask
+    flask.typing: :flask
+    flask.views: :flask
+    flask.wrappers: :flask
+  pip_repository:
+    name: pip

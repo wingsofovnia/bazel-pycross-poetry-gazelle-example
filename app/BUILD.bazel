@@ -1,0 +1,18 @@
+load("@aspect_rules_py//py:defs.bzl", "py_binary", "py_library")
+
+py_binary(
+    name = "app",
+    srcs = ["app.py"],
+    visibility = ["//:__subpackages__"],
+    deps = ["@pip//:flask"],
+)
+
+py_library(
+    name = "app_lib",
+    srcs = [
+        "__init__.py",
+        "app.py",
+    ],
+    visibility = ["//:__subpackages__"],
+    deps = ["@pip//:flask"],
+)
