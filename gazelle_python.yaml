@@ -5,28 +5,41 @@
 
 manifest:
   modules_mapping:
-    flask: :flask
-    flask.app: :flask
-    flask.blueprints: :flask
-    flask.cli: :flask
-    flask.config: :flask
-    flask.ctx: :flask
-    flask.debughelpers: :flask
-    flask.globals: :flask
-    flask.helpers: :flask
-    flask.json: :flask
-    flask.json.provider: :flask
-    flask.json.tag: :flask
-    flask.logging: :flask
-    flask.sansio.app: :flask
-    flask.sansio.blueprints: :flask
-    flask.sansio.scaffold: :flask
-    flask.sessions: :flask
-    flask.signals: :flask
-    flask.templating: :flask
-    flask.testing: :flask
-    flask.typing: :flask
-    flask.views: :flask
-    flask.wrappers: :flask
+    dateutil: python_dateutil
+    dateutil.easter: python_dateutil
+    dateutil.parser: python_dateutil
+    dateutil.parser.isoparser: python_dateutil
+    dateutil.relativedelta: python_dateutil
+    dateutil.rrule: python_dateutil
+    dateutil.tz: python_dateutil
+    dateutil.tz.tz: python_dateutil
+    dateutil.tz.win: python_dateutil
+    dateutil.tzwin: python_dateutil
+    dateutil.utils: python_dateutil
+    dateutil.zoneinfo: python_dateutil
+    dateutil.zoneinfo.rebuild: python_dateutil
+    flask: flask
+    flask.app: flask
+    flask.blueprints: flask
+    flask.cli: flask
+    flask.config: flask
+    flask.ctx: flask
+    flask.debughelpers: flask
+    flask.globals: flask
+    flask.helpers: flask
+    flask.json: flask
+    flask.json.provider: flask
+    flask.json.tag: flask
+    flask.logging: flask
+    flask.sansio.app: flask
+    flask.sansio.blueprints: flask
+    flask.sansio.scaffold: flask
+    flask.sessions: flask
+    flask.signals: flask
+    flask.templating: flask
+    flask.testing: flask
+    flask.typing: flask
+    flask.views: flask
+    flask.wrappers: flask
   pip_repository:
     name: pip
